@@ -47,4 +47,13 @@ class Login extends Base
 			exit(json_encode(array('code' => 201, 'msg' => '用户名或密码错误')));
 		}
 	}
+
+
+
+	//退出登陆
+	public function quit()
+	{
+		Session::delete('id');
+		exit(json_encode(array('code' => 200, 'msg' => '退出成功')));
+	}
 }

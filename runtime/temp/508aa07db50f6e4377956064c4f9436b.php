@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:81:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\my\index.html";i:1540537727;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540537551;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:81:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\my\index.html";i:1540539819;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540537551;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +22,89 @@
 
 <!-- 正式内容栏 -->
 
-
+<div class="hui-wrap">
+    <div class="hui-list" style="background:#FFFFFF; margin-top:28px;">
+        <a href="javascript:hui.toast('Hello Hcoder UI !');" style="height:auto; height:80px; padding-bottom:8px;">
+    		<div class="hui-list-icons" style="width:110px; height:80px;">
+    			<img src="/one'sRemainingYears/public/static/hui/img/list/home.png" style="width:66px; margin:0px; border-radius:50%;">
+    		</div>
+    		<div class="hui-list-text" style="height:79px; line-height:79px;">
+    			<div class="hui-list-text-content">
+    				Hcoder.net
+    			</div>
+    			<div class="hui-list-info">
+    				<span class="hui-icons hui-icons-right"></span>
+    			</div>
+    		</div>
+    	</a>
+    	<!-- <a href="javascript:hui.toast('Hello Hcoder UI !');">
+    		<div class="hui-list-text">
+    			账户余额 : 1000元 | 积分 : 2000
+    		</div>
+    	</a> -->
+    </div>
+    <div class="hui-list" style="background:#FFFFFF; margin-top:28px;">
+        <ul>
+            <li>
+            	<a href="javascript:void(0);">
+            		<div class="hui-list-icons">
+		    			<img src="/one'sRemainingYears/public/static/hui/img/list/sc.png">
+		    		</div>
+		    		<div class="hui-list-text">
+		    			我的收藏
+		    			<div class="hui-list-info">
+		    				<span class="hui-icons hui-icons-right"></span>
+		    			</div>
+		    		</div>
+            	</a>
+           	</li>
+            <li>
+            	<a href="javascript:void(0);">
+            		<div class="hui-list-icons">
+		    			<img src="/one'sRemainingYears/public/static/hui/img/list/ht.png">
+		    		</div>
+		    		<div class="hui-list-text">
+		    			我的话题
+		    			<div class="hui-list-info">
+		    				<span class="hui-icons hui-icons-right"></span>
+		    			</div>
+		    		</div>
+            	</a>
+           	</li>
+           	<li>
+            	<a href="javascript:void(0);">
+            		<div class="hui-list-icons">
+		    			<img src="/one'sRemainingYears/public/static/hui/img/list/order.png">
+		    		</div>
+		    		<div class="hui-list-text">
+		    			我的订单
+		    			<div class="hui-list-info">
+		    				<span class="hui-icons hui-icons-right"></span>
+		    			</div>
+		    		</div>
+            	</a>
+           	</li>
+           	<li>
+            	<a href="javascript:void(0);">
+            		<div class="hui-list-icons">
+		    			<img src="/one'sRemainingYears/public/static/hui/img/list/lishi.png">
+		    		</div>
+		    		<div class="hui-list-text">
+		    			历史足迹
+		    			<div class="hui-list-info">
+		    				<span class="hui-icons hui-icons-right"></span>
+		    			</div>
+		    		</div>
+            	</a>
+           	</li>
+        </ul>
+    </div>
+    <div style="background:#FFFFFF; margin-top:28px;">
+        <button type="button" class="hui-button hui-button-large" onclick="quit()">
+        	<span class="hui-icons hui-icons-logoff"></span>退出系统
+       	</button>
+    </div>
+</div>
 
 
 <!-- 底部导航栏 -->
@@ -59,6 +141,31 @@
 
 <script src="/one'sRemainingYears/public/static/hui/js/hui.js" type="text/javascript" charset="utf-8"></script>
 
+<script type="text/javascript">
+	function quit()
+	{
+
+		var user_name = hui('input[name="user_name"]').val();
+		var password = hui('input[name="password"]').val();
+
+		hui.postJSON(
+            "<?php echo url('home/Login/quit'); ?>",
+            {'user_name': user_name, 'password': password},
+            function(msg){
+                console.log(msg);
+                if(msg.code == 200)
+                {
+                    hui.toast(msg.msg);
+                    setTimeout(function(){window.location.href="<?php echo url('home/index/index'); ?>"},1000);
+                }else
+                {
+                    hui.toast(msg.msg);
+                }
+                // hui.upToast(msg.name +' age : ' + msg.age);
+            }
+        );
+	}
+</script>
 
 </body>
 </html>
