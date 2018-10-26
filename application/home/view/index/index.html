@@ -1,0 +1,59 @@
+{extend name="base/base"}
+
+{block name="header"}
+    <div class="hui-wrap">
+        <img src="__STATIC__/hui/img/banner.png" width="100%">
+    </div>
+{/block}
+
+<!-- 内容消息滚动栏 -->
+{block name="flex"}
+    <div style="background:#FFF; padding:0px 15px; margin:10px;" class="hui-flex">
+        <div style="height:46px; width:20px;">
+            <img src="__STATIC__/hui/img/spiker.png" width="20" style="padding:13px 0px;">
+        </div>
+        <div class="hui-scroll-news" id="scrollnew1">
+            
+            
+            <div class="hui-scroll-news-items hui-scroll-news-h0">暴雪再袭长三角：交通遭重创 用电量增 菜价涨</div>
+        <div class="hui-scroll-news-items "><a href="javascript:hui.toast('test...');">一块橘子皮就能秒开你的手机</a></div><div class="hui-scroll-news-items ">新一轮成品油价或迎年内首次"二连涨"</div></div>
+    </div>
+{/block}
+
+{block name="connect"}
+    <div class="hui-wrap">
+        <div class="hui-media-list" style="padding:10px;">
+            <ul>
+                <li>
+                    <a href="javascript:hui.toast('hi...');">
+                        <div class="hui-media-list-img"><img src="__STATIC__/hui/img/1.jpg"></div>
+                        <div class="hui-media-content">
+                            <h1>标题内容....</h1>
+                            <p>power by hcoder.net</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:hui.toast('hi...');">
+                        <div class="hui-media-list-img"><img src="__STATIC__/hui/img/2.jpg"></div>
+                        <div class="hui-media-content">
+                            <h1>标题内容....</h1>
+                            <p>power by hcoder.net</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+{/block}
+
+
+{block name="src"}
+    <script type="text/javascript">
+        hui('#nav-my').pointMsg();
+        hui('#nav-news').pointMsg('hot', null, null, null, '1px');
+        hui('#nav-forum').pointMsg(8);
+    </script>
+{/block}
+</body>
+</html>

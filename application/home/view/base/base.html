@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>HUI - 底部导航</title>
+<link rel="stylesheet" type="text/css" href="__STATIC__/hui/css/hui.css" />
+</head>
+<body>
+    <!-- 头部banner图 -->
+{block name="header"}
+
+{/block}
+
+<!-- 内容消息滚动栏 -->
+{block name="flex"}
+
+{/block}
+
+<!-- 正式内容栏 -->
+{block name="connect"}
+
+{/block}
+
+<!-- 底部导航栏 -->
+<div id="hui-footer">
+    <a href="{:url('home/index/index')}" id="nav-home">
+        <div class="hui-footer-icons hui-icons-home"></div>
+        <div class="hui-footer-text">首页</div>
+    </a>
+    <a href="javascript:hui.toast('新闻');" id="nav-news">
+        <div class="hui-footer-icons hui-icons-news"></div>
+        <div class="hui-footer-text">新闻</div>
+    </a>
+    <a href="javascript:hui.toast('新闻');" id="nav-news">
+        <div class="hui-footer-icons hui-icons-news"></div>
+        <div class="hui-footer-text">新闻</div>
+    </a>
+    <a href="javascript:hui.toast('社区');" id="nav-forum">
+        <div class="hui-footer-icons hui-icons-forum"></div>
+        <div class="hui-footer-text">社区</div>
+    </a>
+    {if $islogin == 1}
+    <a href="{:url('home/my/index')}" id="nav-my">
+        <div class="hui-footer-icons hui-icons-my"></div>
+        <div class="hui-footer-text">我的</div>
+    </a>
+    {else}
+    <a href="{:url('home/login/index')}" id="nav-my">
+        <div class="hui-footer-icons hui-icons-my"></div>
+        <div class="hui-footer-text">登录</div>
+    </a>
+    {/if}
+    
+</div>
+
+<script src="__STATIC__/hui/js/hui.js" type="text/javascript" charset="utf-8"></script>
+{block name="src"}
+{/block}
+</body>
+</html>
