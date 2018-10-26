@@ -57,4 +57,15 @@ class Login extends Base
 		Session::delete('id');
 		exit(json_encode(array('code' => 200, 'msg' => '退出成功')));
 	}
+
+
+
+	//用户注册页面
+	public function register()
+	{
+		$isLogin = $this -> userIsLogin();
+
+		$this -> assign('islogin',$isLogin);
+		return $this -> fetch();
+	}
 }

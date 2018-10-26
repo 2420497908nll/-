@@ -29,6 +29,7 @@
     <div style="padding:10px; padding-top:10px;">
         <button type="button" class="hui-button hui-button-large hui-primary" id="submit" onclick="login()">立即登录</button>
     </div>
+    <a href="{:url('home/Login/register')}" style="float: right;margin-right: 10px;font-family: '黑体'">没有账号？去注册</a>
 </div>
 {/block}
 
@@ -55,7 +56,6 @@
                 {
                     hui.toast(msg.msg);
                 }
-                // hui.upToast(msg.name +' age : ' + msg.age);
             }
         );
 	}

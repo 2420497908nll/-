@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:84:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\login\index.html";i:1540536700;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540537551;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:84:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\login\index.html";i:1540542752;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540542824;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,6 +40,7 @@
     <div style="padding:10px; padding-top:10px;">
         <button type="button" class="hui-button hui-button-large hui-primary" id="submit" onclick="login()">立即登录</button>
     </div>
+    <a href="<?php echo url('home/Login/register'); ?>" style="float: right;margin-right: 10px;font-family: '黑体'">没有账号？去注册</a>
 </div>
 
 
@@ -76,6 +77,7 @@
 </div>
 
 <script src="/one'sRemainingYears/public/static/hui/js/hui.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/one'sRemainingYears/public/static/hui/js/hui-form.js"></script>
 
 <script type="text/javascript">
 	function login()
@@ -96,7 +98,6 @@
                 {
                     hui.toast(msg.msg);
                 }
-                // hui.upToast(msg.name +' age : ' + msg.age);
             }
         );
 	}

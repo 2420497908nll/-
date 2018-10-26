@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:84:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html";i:1540539965;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540537551;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:84:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html";i:1540539965;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540542824;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,6 +90,7 @@
 </div>
 
 <script src="/one'sRemainingYears/public/static/hui/js/hui.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/one'sRemainingYears/public/static/hui/js/hui-form.js"></script>
 
     <script type="text/javascript">
         hui('#nav-my').pointMsg();
