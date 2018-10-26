@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:87:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\login\register.html";i:1540544628;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540544232;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:87:"D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\login\register.html";i:1540545069;s:72:"D:\phpStudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540544232;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -53,7 +53,7 @@
             </div>
         </div>
         <div style="padding:15px 8px;">
-            <button style="margin: 0 auto" type="button" class="hui-button hui-primary hui-fr" id="submitBtn">提交数据</button>
+            <button type="button" class="hui-button hui-primary hui-fr" id="submitBtn">注册</button>
         </div>
     </form>
 </div>
