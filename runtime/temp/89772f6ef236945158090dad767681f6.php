@@ -1,12 +1,27 @@
-{extend name="base/base"}
+<?php if (!defined('THINK_PATH')) exit(); /*a:2:{s:87:"E:\phpstudy\WWW\one'sRemainingYears\public/../application/home\view\login\register.html";i:1540568729;s:72:"E:\phpstudy\WWW\one'sRemainingYears\application\home\view\base\base.html";i:1540563430;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>HUI - 底部导航</title>
+<link rel="stylesheet" type="text/css" href="/one'sRemainingYears/public/static/hui/css/hui.css" />
+</head>
+<body>
+    <!-- 头部banner图 -->
 
-{block name="header"}
 <header class="hui-header">
     <h1>注册账号</h1>
 </header>
-{/block}
 
-{block name="connect"}
+
+<!-- 内容消息滚动栏 -->
+
+
+
+
+<!-- 正式内容栏 -->
+
 <div class="hui-wrap">
     <form style="padding:28px 10px;" class="hui-form" id="form1">
         <div class="hui-form-items">
@@ -42,9 +57,43 @@
         </div>
     </form>
 </div>
-{/block}
 
-{block name="src"}
+
+<!-- 底部导航栏 -->
+<div id="hui-footer">
+    <a href="<?php echo url('home/index/index'); ?>" id="nav-home">
+        <div class="hui-footer-icons hui-icons-home"></div>
+        <div class="hui-footer-text">首页</div>
+    </a>
+    <a href="javascript:hui.toast('新闻');" id="nav-news">
+        <div class="hui-footer-icons hui-icons-news"></div>
+        <div class="hui-footer-text">新闻</div>
+    </a>
+    <a href="javascript:hui.toast('新闻');" id="nav-news">
+        <div class="hui-footer-icons hui-icons-news"></div>
+        <div class="hui-footer-text">新闻</div>
+    </a>
+    <a href="javascript:hui.toast('社区');" id="nav-forum">
+        <div class="hui-footer-icons hui-icons-forum"></div>
+        <div class="hui-footer-text">社区</div>
+    </a>
+    <?php if($islogin == 1): ?>
+    <a href="<?php echo url('home/my/index'); ?>" id="nav-my">
+        <div class="hui-footer-icons hui-icons-my"></div>
+        <div class="hui-footer-text">我的</div>
+    </a>
+    <?php else: ?>
+    <a href="<?php echo url('home/login/index'); ?>" id="nav-my">
+        <div class="hui-footer-icons hui-icons-my"></div>
+        <div class="hui-footer-text">登录</div>
+    </a>
+    <?php endif; ?>
+    
+</div>
+
+<script src="/one'sRemainingYears/public/static/hui/js/hui.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/one'sRemainingYears/public/static/hui/js/hui-form.js"></script>
+
 <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
 	//验证码倒计时
@@ -53,7 +102,7 @@
 	function phonenum(){
         var email = $('input[name="email"]').val();
 
-        $.post("{:url('home/login/sendEmail')}",{'email':email},function(res){
+        $.post("<?php echo url('home/login/sendEmail'); ?>",{'email':email},function(res){
             hui.toast(res.msg);
         },'json');
 
@@ -90,15 +139,17 @@
 
         var json = {'user_name': user_name, 'email':email, 'pwd':pwd, 'sex': sex, 'code':code};
 
-        $.post("{:url('home/login/registerProcess')}",json,function(res){
+        $.post("<?php echo url('home/login/registerProcess'); ?>",json,function(res){
             if(res.code == 200)
             {
                 hui.toast(res.msg);
-                setTimeout(function(){window.location.href = "{:url('home/login/index')}"},1000);
+                setTimeout(function(){window.location.href = "<?php echo url('home/login/index'); ?>"},1000);
             }else{
                 hui.toast(res.msg);
             }
         },'json');
     }
 </script>
-{/block}
+
+</body>
+</html>
