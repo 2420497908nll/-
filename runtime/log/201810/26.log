@@ -22251,3 +22251,359 @@
   0 => 'islogin',
 ) ]
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:46:57+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.064919s] [吞吐率：15.40req/s] [内存消耗：1,854.18kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:46:57+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.028898s] [吞吐率：34.60req/s] [内存消耗：1,701.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:46:57+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.027663s] [吞吐率：36.15req/s] [内存消耗：1,701.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:50:18+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.036887s] [吞吐率：27.11req/s] [内存消耗：1,701.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:50:18+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.027060s] [吞吐率：36.95req/s] [内存消耗：1,701.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:50:18+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.021637s] [吞吐率：46.22req/s] [内存消耗：1,701.84kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:50:19+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/login/index.html
+[运行时间：0.020643s] [吞吐率：48.44req/s] [内存消耗：1,709.70kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/index/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Login->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\login\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-26T15:50:26+08:00 ] 0.0.0.0 POST localhost/one'sRemainingYears/public/index.php/home/login/loginprocess.html
+[运行时间：0.155431s] [吞吐率：6.43req/s] [内存消耗：2,511.46kb] [文件加载：52]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'login',
+    2 => 'loginprocess',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'origin' => 'http://localhost',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+  'user_name' => 'yangze',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\home\controller\Login->loginProcess[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002083s ] mysql:host=127.0.0.1;dbname=app;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.001329s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user_name` = 'yangze' LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `user_name` = 'yangze'  AND `user_password` = 'e10adc3949ba59abbe56e057f20f883e' LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `user_end_login`='2018-10-26 03:50:26'  WHERE  `user_id` = 1 [ RunTime:0.110882s ]
+---------------------------------------------------------------
+[ 2018-10-26T15:50:27+08:00 ] 0.0.0.0 GET localhost/one'sRemainingYears/public/index.php/home/index/index.html
+[运行时间：0.049407s] [吞吐率：20.24req/s] [内存消耗：1,701.79kb] [文件加载：45]
+[ info ] [ LANG ] D:\phpStudy\WWW\one'sRemainingYears\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'home',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/one\'sRemainingYears/public/index.php/home/login/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,und;q=0.8,en;q=0.7',
+  'cookie' => 'PHPSESSID=i7jq6fpni431459vi9uremoph3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\home\controller\Index->index[ D:\phpStudy\WWW\one'sRemainingYears\application\home\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\WWW\one'sRemainingYears\public/../application/home\view\index\index.html [ array (
+  0 => 'islogin',
+) ]
+[ info ] [ LOG ] INIT File

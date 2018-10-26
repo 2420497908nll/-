@@ -36,6 +36,7 @@ class Login extends Base
 				}
 
 				$id = $trueinfo['user_id'];
+				Db::table('user') -> where(['user_id' => $id]) -> update(['user_end_login' => date("Y-m-d h:i:s")]);
 				Session::set('id',$id);
 				exit(json_encode(array('code' => 200, 'msg' => '登录成功')));
 
