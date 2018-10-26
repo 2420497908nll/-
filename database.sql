@@ -101,3 +101,4 @@ create table like
 	`like_user_add_id` int(11) not null,
 	`like_create_time` datetime not null
 )
+
