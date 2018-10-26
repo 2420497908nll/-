@@ -2,7 +2,7 @@
 
 > ***吾辈青年当秉承先辈之志为中华崛起而接力奋进！***
 
-> 项目地址：http://www.whysRemaininy.top(***正在申请中***)
+> 项目地址：http://www.whysRemaininy.top(该域名正在申请中)
 
 > 项目使用前台框架：Hui (The project USES a front-end framework：Hui)
 
